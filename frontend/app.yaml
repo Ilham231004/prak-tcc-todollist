@@ -1,5 +1,5 @@
 runtime: python39 
-service: fe-alung-t7
+service: fe-todolist
 instance_class: F1 
 
 handlers:

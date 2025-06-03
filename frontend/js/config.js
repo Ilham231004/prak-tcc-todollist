@@ -1,4 +1,5 @@
-const API_BASE_URL = 'http://localhost:3000/api';
+// const API_BASE_URL = 'http://localhost:3000/api';
+const API_BASE_URL = 'https://be-todolist-981814770172.us-central1.run.app/api';
 
 const API_ENDPOINTS = {
     auth: {
