@@ -1,0 +1,14 @@
+runtime: python39 
+service: fe-alung-t7
+instance_class: F1 
+
+handlers:
+  - url: /
+    static_files: index.html
+    upload: index.html
+
+  - url: /(.*)
+    static_files: \1
+    upload: (.*)
+
+default_expiration: "1h"  
