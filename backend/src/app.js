@@ -37,7 +37,7 @@ app.use(cors({
   origin: 'https://fe-todolist-dot-prak-tcc-1-450606.uc.r.appspot.com',
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
-  credentials: false
+  credentials: true
 }));
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true }));
