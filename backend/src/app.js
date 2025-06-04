@@ -34,7 +34,7 @@ if (!fs.existsSync(uploadsDir)) {
 
 // Middleware
 app.use(cors({
-  origin: '*',
+  origin: 'https://fe-todolist-dot-prak-tcc-1-450606.uc.r.appspot.com',
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: false
